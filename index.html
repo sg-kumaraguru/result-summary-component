@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,28 +10,21 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Results summary component</title>
   </head>
+
   <body>
     <main>
       <div class="result grid">
         <h1 class="section-title">Your Result</h1>
+
         <p class="score">
           <span>76</span>
           of 100
         </p>
+
         <div class="desc grid">
           <p class="lead">Great</p>
           <p>
@@ -40,44 +32,46 @@
           </p>
         </div>
       </div>
+
       <div class="summary grid">
         <h2 class="section-title">Summary</h2>
-        <ul class="summary-item grid ">
+
+        <ul class="summary-item grid">
           <li class="summary-item-1 flex">
             <div class="flex-group">
-              <img src="/images/icon-reaction.svg" alt="" />
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction icon" />
               <p>Reaction</p>
             </div>
             <p class="summary-score"><span>80</span> / 100</p>
           </li>
+
           <li class="summary-item-2 flex">
             <div class="flex-group">
-              <img src="/images/icon-memory.svg" alt="" />
+              <img src="./assets/images/icon-memory.svg" alt="Memory icon" />
               <p>Memory</p>
             </div>
             <p class="summary-score"><span>92</span> / 100</p>
           </li>
+
           <li class="summary-item-3 flex">
             <div class="flex-group">
-              <img src="/images/icon-verbal.svg" alt="" />
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal icon" />
               <p>Verbal</p>
             </div>
             <p class="summary-score"><span>61</span> / 100</p>
           </li>
+
           <li class="summary-item-4 flex">
             <div class="flex-group">
-              <img src="/images/icon-visual.svg" alt="" />
+              <img src="./assets/images/icon-visual.svg" alt="Visual icon" />
               <p>Visual</p>
             </div>
             <p class="summary-score"><span>72</span> / 100</p>
           </li>
         </ul>
+
         <button>Continue</button>
       </div>
     </main>
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
   </body>
 </html>
